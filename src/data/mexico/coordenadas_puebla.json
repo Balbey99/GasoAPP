@@ -1,0 +1,1832 @@
+[
+  {
+    "Nombre": "GONCADOS SAN LUIS SA DE CV",
+    "Direccion": "106 PONIENTE 1527",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "latitud": "19.0379",
+    "longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "NACOZARI GASOLINERIA S.A. DE C.V.",
+    "Direccion": "11 Norte No. 2002",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.06738",
+    "Longitud": "-98.211005",
+    "Direccion(CP,CIUDAD,PAIS)": "72000 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72000"
+  },
+  {
+    "Nombre": "Z GAS COMPANY S.A. DE C.V.",
+    "Direccion": "11 Norte No. 7202",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "latitud": "19.06738",
+    "longitud": "-98.211005",
+    "Direccion(CP,CIUDAD,PAIS)": "72000 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72000"
+  },
+  {
+    "Nombre": "GASOLINERA EL MAYORAZGO S.A. DE C.V.",
+    "Direccion": "11 Sur (Calzada Agua Azul) No. 1-A",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "latitud": "19.0379",
+    "longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ENERGÃƒâ€°TICOS SOLE S.A. DE C.V.",
+    "Direccion": "12 Oriente No. 3215",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "latitud": "19.0379",
+    "longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGÃƒâ€°TICOS S.A. DE C.V.",
+    "Direccion": "14 Oriente No. 4217",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "latitud": "19.0379",
+    "longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO OLXO 5 S.A. DE C.V.",
+    "Direccion": "141 Poniente No. 1932",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "latitud": "19.0379",
+    "longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "REMARAUDA S.A. DE C.V.",
+    "Direccion": "15 Sur No. 11301 Int. 1",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "LAS PALMAS DE PUEBLA S.A. DE C.V.",
+    "Direccion": "16 de Septiembre Carretera Valsequillo S/N",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN DE SERVICIO CAPRICORNIO S.A. DE C.V.",
+    "Direccion": "18 de Noviembre No. 1048",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA MASTER S.A. DE C.V.",
+    "Direccion": "18 de Noviembre No. 2228",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "CORPORATIVO BTO S.A. DE C.V.",
+    "Direccion": "2 Poniente No. 2113",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "POLIOIL S. DE R. L. DE C. V.",
+    "Direccion": "23 Poniente No. 3518",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "COMBUSTIBLES JV S.A. DE C.V.",
+    "Direccion": "24 Sur No. 507",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA EL ECOLOGICO POBLANO S.A. DE C.V.",
+    "Direccion": "26 Sur No. 709",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GRIÃƒâ€˜ON SA DE CV",
+    "Direccion": "30 SUR No. 105",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "COMBUSTIBLES RESURGIMIENTO S.A. DE C.V.",
+    "Direccion": "4 Oriente No. 2427",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "FERALGO SA DE CV",
+    "Direccion": "47 SUR 2502",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "PMC GAS S. DE R. L. DE C. V.",
+    "Direccion": "49 Poniente Y 5 B Sur N.518",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.066895",
+    "Longitud": "-98.235917",
+    "Direccion(CP,CIUDAD,PAIS)": "72130 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72130"
+  },
+  {
+    "Nombre": "RZ CAPITAL S.A. DE C.V.",
+    "Direccion": "53 Sur No. 902",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA ZAVALETA S.A. DE C.V.",
+    "Direccion": "55 Sur No. 2119",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERIA JAQ S.A. DE C.V.",
+    "Direccion": "Autopista MÃƒÂ©xico-Puebla No. 1702",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN LA ESQUINA 31 S.A. DE C.V.",
+    "Direccion": "Avenida 11 Sur No. 2912",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGETICOS S.A. DE C.V.",
+    "Direccion": "Avenida 15 de Mayo No. 3506",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA LOS ANGELES S.A. DE C.V.",
+    "Direccion": "Avenida 16 de Septiembre No. 4322",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "BUGAS S.A. DE C.V.",
+    "Direccion": "Avenida 16 de Septiembre No. 5901",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLNAT S.A. DE C.V.",
+    "Direccion": "Avenida 18 de Noviembre No. 2246",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO TOLEDO S.A. DE C.V.",
+    "Direccion": "Avenida 19 Poniente No. 316",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA LA POBLANITA S.A. DE C.V.",
+    "Direccion": "Avenida 2 Poniente No. 1902",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO LA PIEDAD S.A. DE C.V.",
+    "Direccion": "Avenida 21 Poniente No. 2329",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "TUYEN S.A. DE C.V.",
+    "Direccion": "Avenida 25 Oriente 2024",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.038285",
+    "Longitud": "-98.184573",
+    "Direccion(CP,CIUDAD,PAIS)": "72000 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72000"
+  },
+  {
+    "Nombre": "GRUPO EMPRENDEDOR GASOLINERO S.A. DE C.V.",
+    "Direccion": "Avenida 25 Oriente No. 1627",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGETICOS S.A. DE C.V.",
+    "Direccion": "Avenida 25 Poniente No. 3321",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGÃƒâ€°TICOS S.A. DE C.V.",
+    "Direccion": "Avenida 25 Poniente No. 712",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGETICOS S.A. DE C.V.",
+    "Direccion": "Avenida 31 Poniente Y Privada Ixtacihuatl 2731",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ESPAÃƒâ€˜A CORPORATIVO S.A. DE C.V.",
+    "Direccion": "Avenida 41 Poniente 2117",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.044934",
+    "Longitud": "-98.219091",
+    "Direccion(CP,CIUDAD,PAIS)": "72580 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72580"
+  },
+  {
+    "Nombre": "ALDIA S.A. DE C.V.",
+    "Direccion": "Avenida 43 Oriente No. 219-A",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICAR S.A. DE C.V.",
+    "Direccion": "Avenida 51 Poniente No. 1118",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA C V S DE PUEBLA S.A. DE C.V.",
+    "Direccion": "Avenida Cadete Vicente Suarez No. 25",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "MUBRA COMBUSTIBLE S.A. DE C.V.",
+    "Direccion": "AVENIDA CLAVIJERO No 230",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.062094",
+    "Longitud": "-98.129244",
+    "Direccion(CP,CIUDAD,PAIS)": "72310 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72310"
+  },
+  {
+    "Nombre": "SERVICIO COLIBRI S.A. DE C.V.",
+    "Direccion": "Avenida de Las Torres No. 2602",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA VILLA VERDE S.A. DE C.V.",
+    "Direccion": "Avenida Diagonal Defensores de La Republica No. 1050",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGÃƒâ€°TICOS S.A. DE C.V.",
+    "Direccion": "Avenida Esteban de AntuÃƒÂ°ano No. 243",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGÃƒâ€°TICOS S.A. DE C.V.",
+    "Direccion": "Avenida Esteban de Antunano No. 1402",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "AUTOSERVICIO MAGESTIC S.A. DE C.V.",
+    "Direccion": "Avenida Guadalupe No. 505",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.087866",
+    "Longitud": "-98.243024",
+    "Direccion(CP,CIUDAD,PAIS)": "72120 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72120"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGÃƒâ€°TICOS S.A. DE C.V.",
+    "Direccion": "Avenida Hermanos Serdan No. 218",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN AMALUCAN S.A. DE C.V.",
+    "Direccion": "Avenida Independencia No. Ext. 5202",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGÃƒâ€°TICOS S.A. DE C.V.",
+    "Direccion": "Avenida JosÃƒÂ© MarÃƒÂ­a La Fragua No. 8319",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO 3L S.A. DE C.V.",
+    "Direccion": "Avenida JuÃƒÂ¡rez No. 2518",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO ROMAY S.A. DE C.V.",
+    "Direccion": "Avenida JuÃƒÂ¡rez No. 2914",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA RASAGUI S.A. DE C.V.",
+    "Direccion": "Avenida Manuel Espinosa Yglesias No. 3101",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN MAYORAZGO S.A. DE C.V.",
+    "Direccion": "Avenida Mercurio No. 1301 Ex-Rancho Vaquerias",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA LA POBLANITA S.A. DE C.V.",
+    "Direccion": "Avenida PerifÃƒÂ©rico Ecologico 2222 Esquina Priv. 22 D Sur",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "JOSÃƒâ€° ARTURO MANUEL VELAZQUEZ Y PONCE DE LEON",
+    "Direccion": "Avenida ProlongaciÃƒÂ³n Reforma No. 6106",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SUPER SERVICIO OVINIA S.A. DE C.V.",
+    "Direccion": "AVENIDA PUEBLA  931",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "18.998352",
+    "Longitud": "-98.238505",
+    "Direccion(CP,CIUDAD,PAIS)": "72480 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72480"
+  },
+  {
+    "Nombre": "SERVICIO VANOE S.A. DE C.V.",
+    "Direccion": "Avenida Reforma No. 2922",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA RYO S.A. DE C.V.",
+    "Direccion": "Avenida San Baltazar No. 4801",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "RIOSVEL S.A. DE C.V.",
+    "Direccion": "Avenida San Francisco No. 816",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GRUPO REPOSTA MEXICO SA DE CV",
+    "Direccion": "AVENIDA XONACATEPEC 178",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ABASTECEDORA DE HIDROCARBUROS AVE S.A. DE C.V.",
+    "Direccion": "Avenida Xonacatepec No. 11029 \"\"A\"\"",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERAS XONACATEPEC S.A. DE C.V.",
+    "Direccion": "Avenida Xonacatepec No. 1865",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "HONESTIDAD TOTAL S. DE R.L. DE C.V.",
+    "Direccion": "BLVD MUNICIPIO LIBRE NÃƒÅ¡MERO  3021",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "Costco Gas Sociedad AnÃƒÂ³nima de Capital Variable",
+    "Direccion": "Blvd. del NiÃƒÂ±o Poblano 2904 Reserva Territorial Atlixcayotl",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "VFN COMBUSTIBLES S.A.P.I. DE C.V.",
+    "Direccion": "Boulevar Valsequillo No. 624",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.087866",
+    "Longitud": "-98.243024",
+    "Direccion(CP,CIUDAD,PAIS)": "72120 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72120"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGÃƒâ€°TICOS S.A. DE C.V.",
+    "Direccion": "Boulevard 14 Sur No. 3727",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "COMBUSTIBLES CUMULO DE VIRGO S.A. DE C.V.",
+    "Direccion": "Boulevard Atlicayotl No. 1909 Local No. 4",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGETICOS S.A. DE C.V.",
+    "Direccion": "Boulevard Atlixco No. 97",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.062306",
+    "Longitud": "-98.129047",
+    "Direccion(CP,CIUDAD,PAIS)": "72310 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72310"
+  },
+  {
+    "Nombre": "JIR GAS S.A. DE C.V.",
+    "Direccion": "Boulevard Camino Al Batan No. 5708",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GRUPO SAN FRANCISCO DE PUEBLA S. DE R.L. DE C.V.",
+    "Direccion": "BOULEVARD CAPITAN CARLOS CAMACHO ESPIRITU NO. 10330",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "PETRO MAR DEL GOLFO S.A. DE C.V.",
+    "Direccion": "Boulevard CapitÃƒÂ¡n Carlos Camacho EspÃƒÂ­ritu No. 161 C",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "COMERCIALIZADORA DE PRODUCTOS Y SERVICIOS VALSEQUILLO S.A. DE C.V.",
+    "Direccion": "Boulevard Capitan Carlos Camacho Espiritu No. 616",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO OLXO S.A. DE C.V.",
+    "Direccion": "Boulevard Carlos Camacho Espiritu",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO GRAN AVENIDA S.A. DE C.V.",
+    "Direccion": "Boulevard Carmen Millan No. 2",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "DISTRIBUIDORA SAN CHARBEL S.A. DE C.V.",
+    "Direccion": "Boulevard Carmen Serdan No. 155",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "MORPAR S.A. DE C.V.",
+    "Direccion": "Boulevard Carmen Serdan No. 5003",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGETICOS S.A. DE C.V.",
+    "Direccion": "Boulevard Carretera Puebla-Valsequillo No. 927",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "HIDROCARBUROS OPTIMOS S.A. DE C.V.",
+    "Direccion": "Boulevard Esteban de Antunano No. 1347",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN DE SERVICIO ESENCIA S.A. DE C.V.",
+    "Direccion": "Boulevard Esteban de AntuÃƒÂ±ano No. 161",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN DE SERVICIO ARTEMISA S.A. DE C.V.",
+    "Direccion": "Boulevard Esteban de AntuÃƒÂ±ano No. 51",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "CRI DE PUEBLA S.A. DE C.V.",
+    "Direccion": "Boulevard Forjadores de Puebla No. 8960",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "MEGA SERVICIO SERDAN S.A. DE C.V.",
+    "Direccion": "Boulevard Hermanos Serdan No. 343",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN DE SERVICIO ALEJO S.A. DE C.V.",
+    "Direccion": "Boulevard Hermanos Serdan No. 800",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "HIDROSINA PLUS S. A. P. I. DE C. V.",
+    "Direccion": "Boulevard Heroes de 5 de Mayo No. 1101",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "REGUEIRO SANTAS S.A. DE C.V.",
+    "Direccion": "Boulevard Heroes del 5 de Mayo No. 3001",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO CASCADA S.A. DE C.V.",
+    "Direccion": "Boulevard Heroes del 5 de Mayo No. 4",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.108827",
+    "Longitud": "-98.249125",
+    "Direccion(CP,CIUDAD,PAIS)": "72730 Sanctorum, PUE",
+    "Codigo Postal": "72730"
+  },
+  {
+    "Nombre": "GASOLINERA ALLAS S.A. DE C.V.",
+    "Direccion": "Boulevard JosÃƒÂ© MarÃƒÂ­a La Fragua No. 8942",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINAS REDGAS S.A. DE C.V.",
+    "Direccion": "Boulevard La Pedrera No. 2929",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "FOMENTO EMPRESARIAL DE PUEBLA S.A. DE C.V.",
+    "Direccion": "Boulevard Municipio Libre No. 1830",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "PLATAFORMA AREK S.A. DE C.V.",
+    "Direccion": "BOULEVARD NORTE HEROES DEL 5 DE MAYO NO. 2605",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "PLAZA SANTAMARÃƒÂA FUNDIDORA S.A. DE C.V.",
+    "Direccion": "Boulevard Norte Heroes del 5 de Mayo No. 713",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "Gasolineras Rahel S.A. de C.V.",
+    "Direccion": "Boulevard Norte Heroes del 5 de Mayo No. 908",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA GLG S.A. DE C.V.",
+    "Direccion": "Boulevard Norte Heroes del 5 de Mayo No. 915",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGETICOS S.A. DE C.V.",
+    "Direccion": "Boulevard Norte No. 4210",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO GRAN AVENIDA S.A. DE C.V.",
+    "Direccion": "Boulevard San Felipe No. 2615-B",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.062689",
+    "Longitud": "-98.132946",
+    "Direccion(CP,CIUDAD,PAIS)": "72310 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72310"
+  },
+  {
+    "Nombre": "ALBERTO RAMIREZ TORRES",
+    "Direccion": "Boulevard Valsequillo No. 331",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.062094",
+    "Longitud": "-98.129244",
+    "Direccion(CP,CIUDAD,PAIS)": "72310 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72310"
+  },
+  {
+    "Nombre": "COMERCIALIZADORA DHEM S.A. DE C.V.",
+    "Direccion": "Boulevard Valsequillo No. 6305",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN BICENTENARIO S. DE R. L. DE C. V.",
+    "Direccion": "Boulevard Valsequillo No. 945",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLIENRIA RODJAQ S.A. DE C.V.",
+    "Direccion": "Boulevard Via Atlixcayotl No. 4931",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO ALFA BRAVO COCA S.A. DE C.V.",
+    "Direccion": "BOULEVARD XOCANA  No. 3216",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "MORPAR S.A. DE C.V.",
+    "Direccion": "Boulevard Xonaca No. 3211",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA BOSQUES S.A. DE C.V.",
+    "Direccion": "Boulevard Xonacatepec No. 135",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.06267",
+    "Longitud": "-98.135066",
+    "Direccion(CP,CIUDAD,PAIS)": "72310 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72310"
+  },
+  {
+    "Nombre": "COMBUSTIBLES DECOM S.A. DE C.V.",
+    "Direccion": "Boulevardnorte Heroes del 5 de Mayo No. 1870",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.108827",
+    "Longitud": "-98.249125",
+    "Direccion(CP,CIUDAD,PAIS)": "72730 Sanctorum, PUE",
+    "Codigo Postal": "72730"
+  },
+  {
+    "Nombre": "SERVICIO LAS ANIMAS DE PUEBLA S.A. DE C.V.",
+    "Direccion": "Bulevar Atlixco No. 3101",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GRUPO REPOSTA MEXICO SA DE CV",
+    "Direccion": "BULEVAR HERMANOS SERDAN 630",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.087866",
+    "Longitud": "-98.243024",
+    "Direccion(CP,CIUDAD,PAIS)": "72120 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72120"
+  },
+  {
+    "Nombre": "GRUPO REPOSTA MEXICO SA DE CV",
+    "Direccion": "Bulevar Municipio Libre 555",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.087866",
+    "Longitud": "-98.243024",
+    "Direccion(CP,CIUDAD,PAIS)": "72120 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72120"
+  },
+  {
+    "Nombre": "SERVICIO CUATEMIXTLA S.A. DE C.V.",
+    "Direccion": "Bulevar Valsequillo No. 807",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "HIDROCARBUROS ALEM S.A. DE C.V.",
+    "Direccion": "Bulevard 18 de Noviembre No. 1037",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "JESUS MARQUEZ HIGAREDA",
+    "Direccion": "CALLE 118 NORTE (CALLE HARAS) 1023",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.056212",
+    "Longitud": "-98.167125",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GENKUN S. DE R. L. DE C. V.",
+    "Direccion": "Calle 2 Sur No. 2302",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA EL MIRADOR S.A. DE C.V.",
+    "Direccion": "Calle 24 Sur No. 4313",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "JULIO ANGEL ALONSO MONTAGNER",
+    "Direccion": "Calle 29 Sur No. 304 Local A",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO PUEBLA BAPJE S.A. DE C.V.",
+    "Direccion": "Calle 31 Poniente 301",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.047286",
+    "Longitud": "-98.303488",
+    "Direccion(CP,CIUDAD,PAIS)": "72803 San AndrÃ©s Cholula, PUE",
+    "Codigo Postal": "72803"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN DE SERVICIO SAN PABLO S.A. DE C.V.",
+    "Direccion": "Calle 5 de Febrero Poniente No. 169",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGETICOS S.A. DE C.V.",
+    "Direccion": "Calle 7 Norte No. 2807",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.067281",
+    "Longitud": "-98.211131",
+    "Direccion(CP,CIUDAD,PAIS)": "72000 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72000"
+  },
+  {
+    "Nombre": "SERVICIO SAN FELIPE DE PUEBLA S.A. DE C.V.",
+    "Direccion": "Calle Aztecas No. 203",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.062374",
+    "Longitud": "-98.132088",
+    "Direccion(CP,CIUDAD,PAIS)": "72310 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72310"
+  },
+  {
+    "Nombre": "OKTAN SMART ENERGY S.A. DE C.V.",
+    "Direccion": "CALLE EUCALIPTO NO. 12503",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "COMBUSTIBLES VENSA S.A. DE C.V.",
+    "Direccion": "Calle Prlog. Reforma Sur No. 6707",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO AMERICA DE PUEBLA S.A. DE C.V.",
+    "Direccion": "Calle Rio de Janeiro No. 4",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA JW DE PUEBLA S.A. DE C.V.",
+    "Direccion": "CALLE SAUL COLOMBRES NÃƒÅ¡MERO 22",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA LOS PRIMOS POBLANA S.A. DE C.V.",
+    "Direccion": "Calzada Alfredo Toxqui Fernandez de Lara No. 10201",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGETICOS S.A. DE C.V.",
+    "Direccion": "Calzada Alfredo Toxqui No. 10808",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA ALPINA S.A. DE C.V.",
+    "Direccion": "Calzada Zavaleta No. 5507",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GUZA ENERGETICOS S.A. DE C.V.",
+    "Direccion": "CAMINO A CLAVIJERO 290",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.130839",
+    "Longitud": "-98.291122",
+    "Direccion(CP,CIUDAD,PAIS)": "72670 Santa MarÃ­a Coronango, PUE",
+    "Codigo Postal": "72670"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN DE SERVICIO NEMESIS S.A. DE C.V.",
+    "Direccion": "Camino a La ResurrecciÃƒÂ³n No. 10256",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "LUBRIGAS DE PUEBLA S.A. DE C.V.",
+    "Direccion": "Camino a Tlaltepango 10601",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.093628",
+    "Longitud": "-98.174521",
+    "Direccion(CP,CIUDAD,PAIS)": "72044 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72044"
+  },
+  {
+    "Nombre": "HIDROCARBUROS ALOMAN S.A. DE C.V.",
+    "Direccion": "Camino a Tlaltepango No. 10804",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "BP ESTACIONES Y SERVICIOS ENERGETICOS S.A. DE C.V.",
+    "Direccion": "CAMINO AL BATAN NO. 6976 LOCAL A",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO TOLEDO S.A. DE C.V.",
+    "Direccion": "Camino Real a San Jeronimo No. 1216",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN DE SERVICIO LA RESURRECCIÃƒâ€œN S.A. DE C.V.",
+    "Direccion": "Carretera a ResurrecciÃƒÂ³n No. 22",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GRUPO VALSEQUILLO 2000 S.A. DE C.V.",
+    "Direccion": "Carretera a Valsequillo No. 3002",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGÃƒâ€°TICOS S.A. DE C.V.",
+    "Direccion": "Carretera Fed.Puebla-Tlaxcala San Pablo Xochimehuapan",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GRUPO REPOSTA MEXICO SA DE CV",
+    "Direccion": "CARRETERA FEDERAL PUEBLA-TEHUACAN 202",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO SAN CRISTOBAL II S.A. DE C.V.",
+    "Direccion": "Carretera Federal Puebla-Tehuacan No. 314",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "LA ISLA HIDROCARBUROS DEL SUR S.A. DE C.V.",
+    "Direccion": "CARRETERA FEDERAL PUEBLA-TLAXCALA 9620",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGÃƒâ€°TICOS S.A. DE C.V.",
+    "Direccion": "Carretera Federal Puebla-Tlaxcala No. 10823",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GRUPO RAPACASI CC S.A. DE C.V.",
+    "Direccion": "CARRETERA IZUCAR DE MATAMOSROS -CHIETLA KM. 9.5",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGETICOS S.A. DE C.V.",
+    "Direccion": "Carretera MÃƒÂ©xico-Veracruz 1008",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO OLXO 2 S.A. DE C.V.",
+    "Direccion": "Carretera Puebla-Cuantinchan No. 7501",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO X-O2 S.A. DE C.V.",
+    "Direccion": "Carril de Los Alamos N0.9",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN DE SERVICIO LA RECTA PLATINO S.A. DE C.V.",
+    "Direccion": "Chignahuapan No. 34",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.091426",
+    "Longitud": "-98.244591",
+    "Direccion(CP,CIUDAD,PAIS)": "72730 Sanctorum, PUE",
+    "Codigo Postal": "72730"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN HUEXOTITLA S. DE R. L. DE C. V.",
+    "Direccion": "Circuito Juan Pablo Ii No. 1717",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO PLAZA SAN MANUEL S.A. DE C.V.",
+    "Direccion": "Circuito Juan Pablo Ii No. 1802-A",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.093402",
+    "Longitud": "-98.242932",
+    "Direccion(CP,CIUDAD,PAIS)": "72730 Sanctorum, PUE",
+    "Codigo Postal": "72730"
+  },
+  {
+    "Nombre": "SERVICIO HACIENDA SAN CARLOS S.A. DE C.V.",
+    "Direccion": "Circuito Juan Pablo Ii No. 2455",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIOS GASA DE PUEBLA S.A. DE C.V.",
+    "Direccion": "Cl Ignacio Zaragoza No. 471",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.087866",
+    "Longitud": "-98.243024",
+    "Direccion(CP,CIUDAD,PAIS)": "72120 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72120"
+  },
+  {
+    "Nombre": "SERVICIO ZAVALETA S.A. DE C.V.",
+    "Direccion": "Cl Zavaleta No. 2512",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "COMBUSTIBLES AJA S.A. DE C.V.",
+    "Direccion": "Diagonal 10 Poniente No. 2928",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN LA DIAGONAL S.A. DE C.V.",
+    "Direccion": "DIAGONAL DEFENSORES DE LA REPÃƒÅ¡BLICA NO. 1051 LOCAL 1 Y LOCAL 2",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "18.990916",
+    "Longitud": "-98.245442",
+    "Direccion(CP,CIUDAD,PAIS)": "72490 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72490"
+  },
+  {
+    "Nombre": "SERVICIO RAPIDO Y FURIOSO S.A. DE C.V.",
+    "Direccion": "Diagonal Defensores de La Republica No. 1120",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN EL RENGO S. DE R. L. DE C. V",
+    "Direccion": "Diagonal Defensores de La Republica No. 432",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO 3 RIOS S. A DE C. V.",
+    "Direccion": "Diagonal Defensores de La Republica No. 511",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERÃƒÂA ALGUTA S.A. DE C.V.",
+    "Direccion": "Diagonal Defensores de La Republica No. 835",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN AVENIDA MÃƒâ€°XICO 86 S. DE R. L. DE C. V.",
+    "Direccion": "Enrique C. Rebsamen No. 70",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.062366",
+    "Longitud": "-98.129648",
+    "Direccion(CP,CIUDAD,PAIS)": "72310 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72310"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGETICOS S.A. DE C.V.",
+    "Direccion": "Halondiga de Granaditas No. 5907",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "AUTOSERVICIO LORETO S.A. DE C.V.",
+    "Direccion": "Ignacio Zaragoza No. 298",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.062094",
+    "Longitud": "-98.129244",
+    "Direccion(CP,CIUDAD,PAIS)": "72310 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72310"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN DE SERV. AUTOP. MÃƒâ€°XICO PUEBLA S.A. DE C.V.",
+    "Direccion": "Km 120 MÃƒÂ©xico-Puebla",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.098593",
+    "Longitud": "-98.272258",
+    "Direccion(CP,CIUDAD,PAIS)": "72700 Cuautlancingo, PUE",
+    "Codigo Postal": "72700"
+  },
+  {
+    "Nombre": "SERVICIO MAKANA S.A. DE C.V.",
+    "Direccion": "Km 121+000 No. 5304 Autopista Puebla-MÃƒÂ©xico",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO SAN CRISTOBAL S.A. DE C.V.",
+    "Direccion": "Km 8.5 Carretera Puebla-Tehuacan No. 317",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.059586",
+    "Longitud": "-98.132584",
+    "Direccion(CP,CIUDAD,PAIS)": "72310 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72310"
+  },
+  {
+    "Nombre": "GASOLINERA HÃƒâ€°ROES GEPI S.A. DE C.V.",
+    "Direccion": "Lateral del Sur del PerifÃƒÂ©rico EcolÃƒÂ³gico No. 803",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ENERGETICOS CUGO S.A. DE C.V.",
+    "Direccion": "PERIFERICO ECOLOGICO No. 819 LOCAL A",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA GRANJAS SAN ISIDRO S.A. DE C.V.",
+    "Direccion": "Prolog. 14 Sur No. 9302",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SERVICIO PERIFÃƒâ€°RICO ECOLÃƒâ€œGICO GASCO S. DE. R.L. DE C.V.",
+    "Direccion": "PROLONGACIÃƒâ€œN 10 NORTE NO. 1434",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.067331",
+    "Longitud": "-98.211068",
+    "Direccion(CP,CIUDAD,PAIS)": "72000 Puebla (Heroica Puebla), PUE",
+    "Codigo Postal": "72000"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN DE SERVICIO PERIFÃƒâ€°RICO COATEPEC S.A. DE C.V.",
+    "Direccion": "ProlongaciÃƒÂ³n 11 Sur No. 10505",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERIA ALE S.A. DE C.V.",
+    "Direccion": "ProlongaciÃƒÂ³n 11 Sur No. 14120",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.405526",
+    "Longitud": "-99.202706",
+    "Direccion(CP,CIUDAD,PAIS)": "11810 Ciudad De MÃ©xico, CMX",
+    "Codigo Postal": "11810"
+  },
+  {
+    "Nombre": "GASOLINERA LA ONCE S.A. DE C.V.",
+    "Direccion": "ProlongaciÃƒÂ³n 11 Sur No. 5324",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "NARO DE PUEBLA S.A. DE C.V.",
+    "Direccion": "ProlongaciÃƒÂ³n 11 Sur No. 8301 Local A",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "AUTOSERVICIOSAN JOSÃƒâ€° MAYORAZGO DE PUEBLA S.A. DE C.V.",
+    "Direccion": "ProlongaciÃƒÂ³n 11 Sur No. Exterior 9521",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ADONAV S.A. DE C.V.",
+    "Direccion": "ProlongaciÃƒÂ³n 14 Sur",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GRUPO REPOSTA MEXICO SA DE CV",
+    "Direccion": "PROLONGACION 14 SUR 11130",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGÃƒâ€°TICOS S.A. DE C.V.",
+    "Direccion": "ProlongaciÃƒÂ³n 14 Sur No. 11517",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA ARIES S.A. DE C.V.",
+    "Direccion": "ProlongaciÃƒÂ³n 14 Sur No. 6309",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.393018",
+    "Longitud": "-99.106875",
+    "Direccion(CP,CIUDAD,PAIS)": "08700 Ciudad De MÃ©xico, CMX",
+    "Codigo Postal": "8700"
+  },
+  {
+    "Nombre": "SERVIGILGA S.A. DE C.V.",
+    "Direccion": "ProlongaciÃƒÂ³n 16 de Septiembre No. 11530",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "DEYANYRA CORDOVA DIAZ",
+    "Direccion": "ProlongaciÃƒÂ³n 16 de Septiembre No. 13521",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "SINERGIA DE ENERGETICOS S.A. DE C.V.",
+    "Direccion": "ProlongaciÃƒÂ³n 16 de Septiembre No. 6369",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN DE SERVICIOS LAS ANIMAS S.A. DE C.V.",
+    "Direccion": "ProlongaciÃƒÂ³n 31 Poniente No. 3724",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GPDC Estaciones de Servicio S. A. DE C. V.",
+    "Direccion": "ProlongaciÃƒÂ³n Boulevard Municipio Libre No. 1702 Local A",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA CASTILLOTLA S.A. DE C.V.",
+    "Direccion": "ProlongaciÃƒÂ³n de La 11 Sur No. 12909",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "AUTOSERVICIO CASTILLOTLA S.A. DE C.V.",
+    "Direccion": "ProlongaciÃƒÂ³n de La 11 Sur No. 12928",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA PERIFÃƒâ€°RICO SAN JOSÃƒâ€° S.A. DE C.V.",
+    "Direccion": "ProlongaciÃƒÂ³n de La 14 Sur No. 12101",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GPDC Estaciones de Servicio S. A. DE C. V.",
+    "Direccion": "ProlongaciÃƒÂ³n de La 2 Sur No. 9901",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "GASOLINERA JAPA S.A. DE C.V.",
+    "Direccion": "ProlongaciÃƒÂ³n de La Avenida Reforma No. 5104",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN DE SERVICIO LA HARINERA S.A. DE C.V.",
+    "Direccion": "ProlongaciÃƒÂ³n Heroes de Nacozari No. 8002 Local A",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "EL NUEVO SERVICIO PROLONGACIÃƒâ€œN REFORMA S.A. DE C.V.",
+    "Direccion": "ProlongaciÃƒÂ³n Reforma No. 4105",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  },
+  {
+    "Nombre": "ESTACIÃƒâ€œN DE SERVICIO UNIVERSITARIA S. DE R. L. DE C. V.",
+    "Direccion": "ProlongaciÃƒÂ³n Rio Papagayo No. 6301",
+    "Ciudad": "Puebla",
+    "Pais": "Mexico",
+    "Latitud": "19.0379",
+    "Longitud": "-98.2035",
+    "Direccion(CP,CIUDAD,PAIS)": "72270 Puebla, PUE",
+    "Codigo Postal": "72270"
+  }
+]
