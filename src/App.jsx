@@ -17,37 +17,35 @@ function App() {
   const [tipoCombustible, setTipoCombustible] = useState('Precio Gasolina 95 E5');
 
   // 1. Efecto para obtener ubicación real o usar respaldo por país
-  useEffect(() => {
-    // Intentamos obtener la ubicación real del navegador
+  // 1. Efecto para obtener ubicación real o usar respaldo por país
+useEffect(() => {
+  if (pais === 'ES') {
+    // Para España, forzamos Madrid directamente sin pedir permiso de GPS
+    setUbicacion({ lat: 40.4167, lng: -3.7033 });
+    console.log("Ubicación forzada a Madrid (ES)");
+    setCargando(false); // Asegúrate de quitar el estado de carga
+  } else {
+    // Para México (o cualquier otro), intentamos obtener la ubicación real
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         (pos) => {
-          // Si el usuario acepta, guardamos su latitud y longitud real
           setUbicacion({
             lat: pos.coords.latitude,
             lng: pos.coords.longitude
           });
-          console.log("Ubicación real obtenida:", pos.coords.latitude, pos.coords.longitude);
+          console.log("Ubicación real obtenida (MX):", pos.coords.latitude, pos.coords.longitude);
         },
         (error) => {
-          console.warn("El usuario denegó la ubicación o hubo un error. Usando respaldo.");
-          // Si hay error o deniega, usamos los respaldos según el país
-          if (pais === 'ES') {
-            setUbicacion({ lat: 40.4167, lng: -3.7033 }); // Madrid
-          } else {
-            setUbicacion({ lat: 19.0413, lng: -98.2062 }); // Puebla
-          }
+          console.warn("Error de GPS en MX, usando respaldo Puebla.");
+          setUbicacion({ lat: 19.0413, lng: -98.2062 }); // Respaldo Puebla
         }
       );
     } else {
-      // Si el navegador no soporta geolocalización, usamos respaldos
-      if (pais === 'ES') {
-        setUbicacion({ lat: 40.4167, lng: -3.7033 });
-      } else {
-        setUbicacion({ lat: 19.0413, lng: -98.2062 });
-      }
+      // Si el navegador no soporta GPS
+      setUbicacion({ lat: 19.0413, lng: -98.2062 });
     }
-  }, [pais]); // Se vuelve a ejecutar si cambias de país para recalcular distancias
+  }
+}, [pais]);
 
   // 2. Carga de datos
   useEffect(() => {
@@ -204,11 +202,11 @@ function App() {
 <button 
   onClick={() => {
     // 1. Definimos el destino combinando nombre y dirección
-    const destino = encodeURIComponent(`${gas.nombre} ${gas.direccion}, Puebla, Mexico`);
+    const destino = encodeURIComponent(`${gas.nombre} ${gas.direccion}, ${pais === 'MX' ? 'Mexico' : 'España'}`);
     
     // 2. Usamos la acción 'dir' (directions) 
     // origin=My+Location le dice a Google que use el GPS actual del usuario
-    const urlRuta = `https://www.google.com/maps/dir/?api=1&origin=My+Location&destination=${destino}&travelmode=driving`;
+    const urlRuta = `https://www.google.com/maps/dir/?api=1&destination=${destino}&travelmode=driving`;
     
     window.open(urlRuta, '_blank');
   }}
