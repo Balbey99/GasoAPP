@@ -82,51 +82,50 @@ useEffect(() => {
   }, [pais]);
 
   // 3. Procesamiento y filtrado
-  useEffect(() => {
-    if (ubicacion && todasLasGasolineras.length > 0) {
-      const resultado = todasLasGasolineras
-        .filter(gas => {
-          if (gas.isMX) {
-            if (tipoCombustible.includes('95')) return gas.SubProducto.includes('Regular');
-            if (tipoCombustible.includes('98')) return gas.SubProducto.includes('Premium');
-            if (tipoCombustible.includes('Gasoleo A')) return gas.SubProducto.includes('Diésel');
-            return true;
-          }
-          return true; 
-        })
-        .map(gas => {
-          let latFinal, lngFinal, precioFinal;
+ useEffect(() => {
+  if (ubicacion && todasLasGasolineras.length > 0) {
+    const resultado = todasLasGasolineras
+      .filter(gas => {
+        // Si estamos en ES, solo pasamos las que NO son MX
+        if (pais === 'ES') return !gas.isMX;
+        // Si estamos en MX, solo pasamos las que SI son MX
+        if (pais === 'MX') return gas.isMX;
+        return true;
+      })
+      .map(gas => {
+        let latFinal, lngFinal, precioFinal;
 
-          if (gas.isMX) {
-            latFinal = gas.latEstacion;
-            lngFinal = gas.lngEstacion;
-            precioFinal = gas.PrecioVigente;
-          } else {
-            latFinal = parseFloat(gas.Latitud.replace(',', '.'));
-            lngFinal = parseFloat(gas['Longitud (WGS84)'].replace(',', '.'));
-            precioFinal = formatearPrecio(gas[tipoCombustible]);
-          }
+        if (pais === 'MX') {
+          // Lógica específica para datos de México (JSON local)
+          latFinal = gas.latEstacion;
+          lngFinal = gas.lngEstacion;
+          precioFinal = gas.PrecioVigente;
+        } else {
+          // Lógica específica para España (API del Ministerio)
+          latFinal = parseFloat(gas.Latitud.replace(',', '.'));
+          lngFinal = parseFloat(gas['Longitud (WGS84)'].replace(',', '.'));
+          precioFinal = formatearPrecio(gas[tipoCombustible]);
+        }
 
-          const d = calcularDistancia(ubicacion.lat, ubicacion.lng, latFinal, lngFinal);
+        const d = calcularDistancia(ubicacion.lat, ubicacion.lng, latFinal, lngFinal);
 
-          return {
-            nombre: gas.isMX ? gas.Nombre : gas.Rótulo,
-            direccion: gas.isMX ? gas.Direccion : gas.Dirección,
-            distanciaKM: d, 
-            precioReal: precioFinal,
-            moneda: gas.isMX ? '$' : '€',
+        return {
+          nombre: gas.isMX ? gas.Nombre : gas.Rótulo,
+          direccion: gas.isMX ? gas.Direccion : gas.Dirección,
+          distanciaKM: d,
+          precioReal: precioFinal,
+          moneda: gas.isMX ? '$' : '€',
+          lat: latFinal,
+          lng: lngFinal
+        };
+      })
+      // Filtramos que tengan precio y estén dentro del radio
+      .filter(gas => gas.precioReal > 0 && gas.distanciaKM <= radio)
+      .sort((a, b) => a.precioReal - b.precioReal);
 
-            // Guardamos las coordenadas para el botón de mapas
-            lat: latFinal,
-            lng: lngFinal
-          };
-        })
-        .filter(gas => gas.precioReal > 0 && gas.distanciaKM <= radio)
-        .sort((a, b) => a.precioReal - b.precioReal);
-
-      setFiltradas(resultado);
-    }
-  }, [ubicacion, todasLasGasolineras, radio, tipoCombustible, pais]);
+    setFiltradas(resultado);
+  }
+}, [ubicacion, todasLasGasolineras, radio, tipoCombustible, pais]);
 
   return (
     <div className='min-h-screen bg-slate-50 p-4 md:p-8'>
@@ -201,18 +200,11 @@ useEffect(() => {
   {/* BOTÓN DE RUTA: DESDE MI UBICACIÓN HASTA LA DIRECCIÓN */}
 <button 
   onClick={() => {
-    // 1. Definimos el destino combinando nombre y dirección
-    const destino = encodeURIComponent(`${gas.nombre} ${gas.direccion}, ${pais === 'MX' ? 'Mexico' : 'España'}`);
-    
-    // 2. Usamos la acción 'dir' (directions) 
-    // origin=My+Location le dice a Google que use el GPS actual del usuario
-    const urlRuta = `https://www.google.com/maps/dir/?api=1&destination=${destino}&travelmode=driving`;
-    
+    // Usamos las coordenadas exactas que ya calculamos arriba
+    const urlRuta = `https://www.google.com/maps/dir/?api=1&destination=${gas.lat},${gas.lng}&travelmode=driving`;
     window.open(urlRuta, '_blank');
   }}
-  className="mt-2 flex items-center gap-2 bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-600 px-3 py-2 rounded-lg text-sm font-medium transition-colors"
 >
-  <MapPin size={16} />
   Cómo llegar
 </button>
           </div>
