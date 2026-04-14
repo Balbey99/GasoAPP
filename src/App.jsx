@@ -19,30 +19,24 @@ function App() {
   // 1. Efecto para obtener ubicación real o usar respaldo por país
   // 1. Efecto para obtener ubicación real o usar respaldo por país
 useEffect(() => {
+  // Solo activar carga si realmente no tenemos una ubicación previa
+  if (!ubicacion) setCargando(true); 
+
   if (pais === 'ES') {
-    // Para España, forzamos Madrid directamente sin pedir permiso de GPS
     setUbicacion({ lat: 40.4167, lng: -3.7033 });
-    console.log("Ubicación forzada a Madrid (ES)");
-    setCargando(false); // Asegúrate de quitar el estado de carga
+    setCargando(false);
   } else {
-    // Para México (o cualquier otro), intentamos obtener la ubicación real
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         (pos) => {
-          setUbicacion({
-            lat: pos.coords.latitude,
-            lng: pos.coords.longitude
-          });
-          console.log("Ubicación real obtenida (MX):", pos.coords.latitude, pos.coords.longitude);
+          setUbicacion({ lat: pos.coords.latitude, lng: pos.coords.longitude });
+          setCargando(false);
         },
-        (error) => {
-          console.warn("Error de GPS en MX, usando respaldo Puebla.");
+        () => {
           setUbicacion({ lat: 19.0413, lng: -98.2062 }); // Respaldo Puebla
+          setCargando(false);
         }
       );
-    } else {
-      // Si el navegador no soporta GPS
-      setUbicacion({ lat: 19.0413, lng: -98.2062 });
     }
   }
 }, [pais]);
@@ -61,19 +55,26 @@ useEffect(() => {
         }
       } else {
         if (dataPreciosMX && dataPreciosMX.Value) {
-          const listaMX = dataPreciosMX.Value.map(gas => {
-            const geo = dataCoordsMX.find(c => 
-              c.Direccion && gas.Direccion && 
-              c.Direccion.trim() === gas.Direccion.trim()
-            );
-            return {
-              ...gas,
-              isMX: true,
-              latEstacion: geo?.Latitud ? Number(geo.Latitud) : 19.0413,
-              lngEstacion: geo?.Longitud ? Number(geo.Longitud) : -98.2062
-            };
-          });
-          setTodasLasGasolineras(listaMX);
+          const listaMX = dataPreciosMX.Value
+  .map(gas => {
+    const geo = dataCoordsMX.find(c => 
+      c.Direccion && gas.Direccion && 
+      c.Direccion.trim() === gas.Direccion.trim()
+    );
+    
+    // Si no hay geo, devolvemos null para filtrar después
+    if (!geo) return null;
+
+    return {
+      ...gas,
+      isMX: true,
+      latEstacion: Number(geo.Latitud),
+      lngEstacion: Number(geo.Longitud)
+    };
+  })
+  .filter(gas => gas !== null); // <--- Eliminamos las estaciones "fantasma"
+
+setTodasLasGasolineras(listaMX);
         }
       }
       setCargando(false);
@@ -83,48 +84,63 @@ useEffect(() => {
 
   // 3. Procesamiento y filtrado
  useEffect(() => {
-  if (ubicacion && todasLasGasolineras.length > 0) {
-    const resultado = todasLasGasolineras
-      .filter(gas => {
-        // Si estamos en ES, solo pasamos las que NO son MX
-        if (pais === 'ES') return !gas.isMX;
-        // Si estamos en MX, solo pasamos las que SI son MX
-        if (pais === 'MX') return gas.isMX;
-        return true;
-      })
-      .map(gas => {
-        let latFinal, lngFinal, precioFinal;
+  // GUARDA: Si no hay datos base o ubicación del usuario, no hacemos nada
+  if (!ubicacion || todasLasGasolineras.length === 0) return;
 
-        if (pais === 'MX') {
-          // Lógica específica para datos de México (JSON local)
-          latFinal = gas.latEstacion;
-          lngFinal = gas.lngEstacion;
-          precioFinal = gas.PrecioVigente;
-        } else {
-          // Lógica específica para España (API del Ministerio)
-          latFinal = parseFloat(gas.Latitud.replace(',', '.'));
-          lngFinal = parseFloat(gas['Longitud (WGS84)'].replace(',', '.'));
-          precioFinal = formatearPrecio(gas[tipoCombustible]);
-        }
+  const resultado = todasLasGasolineras
+    .filter(gas => {
+      // 1. Filtrado por País y Tipo de combustible
+      if (pais === 'MX') {
+        if (!gas.isMX) return false;
+        if (tipoCombustible === 'Precio Gasolina 95 E5') return gas.SubProducto.includes('Regular');
+        if (tipoCombustible === 'Precio Gasolina 98 E5') return gas.SubProducto.includes('Premium');
+        if (tipoCombustible === 'Precio Gasoleo A') return gas.Producto === 'Diésel';
+        return false;
+      }
+      return !gas.isMX; // Filtro para España
+    })
+    .map(gas => {
+      let latEst, lngEst, precioFinal;
 
-        const d = calcularDistancia(ubicacion.lat, ubicacion.lng, latFinal, lngFinal);
+      if (gas.isMX) {
+        // En México usamos las coordenadas que inyectamos en el Punto 2
+        latEst = gas.latEstacion;
+        lngEst = gas.lngEstacion;
+        precioFinal = Number(gas.PrecioVigente);
+      } else {
+        // En España convertimos las comas de la API en puntos para JS
+        latEst = parseFloat(gas.Latitud.replace(',', '.'));
+        lngEst = parseFloat(gas['Longitud (WGS84)'].replace(',', '.'));
+        precioFinal = formatearPrecio(gas[tipoCombustible]);
+      }
 
-        return {
-          nombre: gas.isMX ? gas.Nombre : gas.Rótulo,
-          direccion: gas.isMX ? gas.Direccion : gas.Dirección,
-          distanciaKM: d,
-          precioReal: precioFinal,
-          moneda: gas.isMX ? '$' : '€',
-          lat: latFinal,
-          lng: lngFinal
-        };
-      })
-      // Filtramos que tengan precio y estén dentro del radio
-      .filter(gas => gas.precioReal > 0 && gas.distanciaKM <= radio)
-      .sort((a, b) => a.precioReal - b.precioReal);
+      // 2. Cálculo de distancia CRÍTICO
+      // Si no hay coordenadas (especialmente en MX), ponemos una distancia infinita para que el filtro lo saque
+      let d = 999; 
+      if (latEst && lngEst && !isNaN(latEst) && !isNaN(lngEst)) {
+        d = calcularDistancia(ubicacion.lat, ubicacion.lng, latEst, lngEst);
+      }
 
-    setFiltradas(resultado);
-  }
+      return {
+        ...gas,
+        nombre: gas.isMX ? gas.Nombre : gas.Rótulo,
+        direccion: gas.isMX ? gas.Direccion : gas.Dirección,
+        distanciaKM: d,
+        precioReal: precioFinal || 0,
+        moneda: gas.isMX ? '$' : '€',
+        lat: latEst,
+        lng: lngEst
+      };
+    })
+    .filter(gas => {
+      // 3. Aplicación estricta del Radio
+      const tienePrecio = gas.precioReal > 0;
+      const estaEnRadio = gas.distanciaKM <= Number(radio);
+      return tienePrecio && estaEnRadio;
+    })
+    .sort((a, b) => a.precioReal - b.precioReal);
+
+  setFiltradas(resultado);
 }, [ubicacion, todasLasGasolineras, radio, tipoCombustible, pais]);
 
   return (
@@ -168,7 +184,7 @@ useEffect(() => {
               <label className='block text-sm font-medium text-slate-700 mb-1'>
                 Radio de búsqueda: <span className='text-blue-600 font-bold'>{radio} km</span>
               </label>
-              <input type='range' min="1" max="50" value={radio} onChange={(e) => setRadio(e.target.value)} className='w-full accent-blue-600' />
+              <input type='range' min="1" max="50" value={radio} onChange={(e) => setRadio(Number(e.target.value))} className='w-full accent-blue-600' />
             </div>
           </div>
         </section>
@@ -199,12 +215,23 @@ useEffect(() => {
             
   {/* BOTÓN DE RUTA: DESDE MI UBICACIÓN HASTA LA DIRECCIÓN */}
 <button 
-  onClick={() => {
-    // Usamos las coordenadas exactas que ya calculamos arriba
-    const urlRuta = `https://www.google.com/maps/dir/?api=1&destination=${gas.lat},${gas.lng}&travelmode=driving`;
-    window.open(urlRuta, '_blank');
+  type="button" // Evita comportamientos de formulario
+  onClick={(e) => {
+    e.preventDefault(); // Evita cualquier acción por defecto del navegador
+    
+    const destinoES = `${gas.lat},${gas.lng}`;
+    const destinoMX = encodeURIComponent(`${gas.direccion}, Puebla, Mexico`);
+    
+    // URL oficial de Google Maps para navegación (más estable que la de googleusercontent)
+    const baseUrl = "https://www.google.com/maps/dir/?api=1";
+    const destino = pais === 'ES' ? destinoES : destinoMX;
+    const urlRuta = `${baseUrl}&destination=${destino}&travelmode=driving`;
+    
+    window.open(urlRuta, '_blank', 'noopener,noreferrer');
   }}
+  className="mt-2 flex items-center gap-2 bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-600 px-3 py-2 rounded-lg text-sm font-medium transition-colors"
 >
+  <MapPin size={16} />
   Cómo llegar
 </button>
           </div>
